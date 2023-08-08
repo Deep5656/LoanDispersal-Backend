@@ -1,0 +1,43 @@
+# server:
+#   port: 9090
+
+logging:
+  level:
+    org:
+      springframework: DEBUG  
+
+
+# spring:
+#   application:
+#     name: PROD - Loan Dispersal System   
+
+#   profiles:
+#     active: prod          
+
+# #Spring MySQL configuration
+
+#   datasource:
+#     url: jdbc:mysql://localhost:3306/loanapp
+#     username: root
+#     password: Deep@1007  
+#     driver-class-name: com.mysql.cj.jdbc.Driver
+
+# #JPA configuration
+#   jpa:
+#     hibernate:
+#       ddl-auto: update
+#     show-sql: true
+#     properties:
+#       hibernate:
+#         dialect: org.hibernate.dialect.MySQL8Dialect  
+
+# #Eureka Client Configuration
+
+# eureka:
+#   instance:
+#     prefer-ip-address: true
+#   client:
+#     fetch-registry: true
+#     register-with-server: true
+#     service-url:
+#       defaultZone: http://localhost:8761/eureka  
