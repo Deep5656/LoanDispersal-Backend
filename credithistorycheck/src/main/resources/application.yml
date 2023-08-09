@@ -9,7 +9,7 @@ logging:
 
 spring:
   application:
-    name: Credit History Check   
+    name: Credit_History_Check
 
   profiles:
     active: prod          
